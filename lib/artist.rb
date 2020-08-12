@@ -17,13 +17,11 @@ def self.all
 end 
 
 def songs 
- Song.all.select do |song|
- song.artist == self 
- end
+Song.all.select { |song| song.artist == self }
 end 
 
 def new_song(name, genre)
-  Song.all.select { |song| song.artist == self }
+  
 end 
 
 def genres 
