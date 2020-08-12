@@ -7,8 +7,8 @@ attr_reader :song , :genre
   
 def initialize(name)
   @name = name 
- # @song = song
-  #@genre = genre 
+  @song = song
+  @genre = genre 
   @@all << self 
  end  
   
