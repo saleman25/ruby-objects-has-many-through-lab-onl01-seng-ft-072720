@@ -17,6 +17,7 @@ def self.all
 end 
 
 def artist
+  
 end 
 
 def songs 
