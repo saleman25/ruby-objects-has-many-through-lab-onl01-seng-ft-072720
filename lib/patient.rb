@@ -22,7 +22,7 @@ def appointments
 end 
   
 def doctors
-  Patient.map(&:doctor)
+  appointments.map(&:doctor)
 end 
   
 end 
