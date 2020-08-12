@@ -17,7 +17,7 @@ def self.all
 end 
 
 def artist
-  
+  songs.map(&:artist)
 end 
 
 def songs 
