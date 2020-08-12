@@ -23,7 +23,7 @@ def songs
 end 
 
 def new_song(name, genre)
-  Song.new(name, self, genre)
+  Song.all.select { |song| song.artist == self }
 end 
 
 def genres 
